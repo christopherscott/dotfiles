@@ -48,13 +48,18 @@ PURE_PROMPT_SYMBOL="λ"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git brew npm nyan web-search npm)
 
-# User configuration
 
+# User configuration
+# =============================================================================
+
+# turn on spelling correction
 setopt correct
 
+# toggle api environments
 # export API_SERVER="https://tb4-alpha.herokuapp.com"
 export API_SERVER="https://tb4-master.herokuapp.com"
 
+# customize path
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/heroku/bin:/Applications/Postgres.app/Contents/MacOS/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
