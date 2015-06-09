@@ -64,6 +64,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/us
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source ~/Development/z/z.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
