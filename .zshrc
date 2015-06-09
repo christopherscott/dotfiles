@@ -59,25 +59,15 @@ setopt correct
 # export API_SERVER="https://tb4-alpha.herokuapp.com"
 export API_SERVER="https://tb4-master.herokuapp.com"
 
-# customize path
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/heroku/bin:/Applications/Postgres.app/Contents/MacOS/bin"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
 source ~/Development/z/z.sh
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+export LANG=en_US.UTF-8
+export EDITOR='vim'
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -86,10 +76,6 @@ source ~/Development/z/z.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias y="cd ~/Development/tm-web-y"
 alias -g devel="~/Development"
 alias dev="~/dev"
