@@ -58,7 +58,6 @@ setopt correct
 # toggle api environments
 # export API_SERVER="https://tb4-alpha.herokuapp.com"
 export API_SERVER="https://tb4-master.herokuapp.com"
-
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/heroku/bin:/Applications/Postgres.app/Contents/MacOS/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -78,9 +77,12 @@ export EDITOR='vim'
 # For a full list of active aliases, run `alias`.
 alias y="cd ~/Development/tm-web-y"
 alias -g devel="~/Development"
-alias dev="~/dev"
+alias dev="devel"
 alias resource=". ~/.zshrc"
 alias clean="cd ~/Development/pure"
 alias s="subl ."
 alias zshrc="subl ~/.zshrc"
 alias l="ls -ohgG"
+
+export NVM_DIR="/Users/chris/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
