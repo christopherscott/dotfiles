@@ -6,3 +6,5 @@
 [user]
 	name = Chris Hernandez
 	email = c.scott.hernandez@gmail.com
+[push]
+	default = simple
