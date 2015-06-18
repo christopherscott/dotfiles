@@ -1,12 +1,15 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/chris/.oh-my-zsh
+export ZSH=/Users/chernandez/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="pure"
-PURE_PROMPT_SYMBOL="λ"
+
+random=$(( (RANDOM % 10) + 1))
+alphabet=(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω)
+PURE_PROMPT_SYMBOL=$alphabet[$random]
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -55,9 +58,6 @@ plugins=(git brew npm nyan web-search npm)
 # turn on spelling correction
 setopt correct
 
-# toggle api environments
-# export API_SERVER="https://tb4-alpha.herokuapp.com"
-export API_SERVER="https://tb4-master.herokuapp.com"
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/heroku/bin:/Applications/Postgres.app/Contents/MacOS/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -83,6 +83,8 @@ alias clean="cd ~/Development/pure"
 alias s="subl ."
 alias zshrc="subl ~/.zshrc"
 alias l="ls -ohgG"
+alias dotfiles="cd ~/Development/dotfiles"
 
-export NVM_DIR="/Users/chris/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# load machine-specific scripts
+source "$HOME/.localrc"
+
