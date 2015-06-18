@@ -86,5 +86,6 @@ alias l="ls -ohgG"
 alias dotfiles="cd ~/Development/dotfiles"
 
 # load machine-specific scripts
-source "$HOME/.localrc"
-
+if [[ -f "$HOME/.localrc" && -r "$HOME/.localrc" ]]; then
+  source "$HOME/.localrc"
+fi
