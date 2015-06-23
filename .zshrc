@@ -7,9 +7,10 @@ export ZSH=/Users/chernandez/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="pure"
 
-random=$(( (RANDOM % 10) + 1))
-alphabet=(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω)
-PURE_PROMPT_SYMBOL=$alphabet[$random]
+# random=$(( (RANDOM % 10) + 1))
+# alphabet=(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω)
+# PURE_PROMPT_SYMBOL=$alphabet[$random]
+PURE_PROMPT_SYMBOL=λ
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -86,6 +87,6 @@ alias l="ls -ohgG"
 alias dotfiles="cd ~/Development/dotfiles"
 
 # load machine-specific scripts
-if [[ -f "$HOME/.localrc" && -r "$HOME/.localrc" ]]; then
-  source "$HOME/.localrc"
+if [[ -f "$HOME/.local" && -r "$HOME/.local" ]]; then
+  source "$HOME/.local"
 fi
