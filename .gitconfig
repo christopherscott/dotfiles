@@ -8,3 +8,5 @@
 	email = c.scott.hernandez@gmail.com
 [push]
 	default = simple
+[diff]
+  external = ~/bin/git-diff.sh
