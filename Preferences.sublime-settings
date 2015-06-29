@@ -2,14 +2,17 @@
 	"color_scheme": "Packages/User/SublimeLinter/Flatland FreshCut (SL).tmTheme",
 	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": false,
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13,
+	"font_size": 11,
 	"ignored_packages":
 	[
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"tab_size": 2,
 	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
