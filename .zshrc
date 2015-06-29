@@ -90,3 +90,6 @@ alias dotfiles="cd ~/Development/dotfiles"
 if [[ -f "$HOME/.local" && -r "$HOME/.local" ]]; then
   source "$HOME/.local"
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
