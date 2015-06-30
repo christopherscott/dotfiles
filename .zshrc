@@ -83,8 +83,11 @@ alias resource=". ~/.zshrc"
 alias clean="cd ~/Development/pure"
 alias s="subl ."
 alias zshrc="subl ~/.zshrc"
-alias l="ls -ohgG"
+alias l="ls -og"
 alias dotfiles="cd ~/Development/dotfiles"
+alias work="tmux -CC attach -t work"
+alias work="tmux -CC attach -t work"
+
 
 # load machine-specific scripts
 if [[ -f "$HOME/.local" && -r "$HOME/.local" ]]; then
