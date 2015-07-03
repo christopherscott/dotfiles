@@ -2,12 +2,20 @@
 	"color_scheme": "Packages/User/SublimeLinter/Flatland FreshCut (SL).tmTheme",
 	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
 	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"ignored_packages":
 	[
 	],
