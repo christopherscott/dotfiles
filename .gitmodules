@@ -7,3 +7,6 @@
 [submodule "iterm-dark-gray"]
 	path = iterm-dark-gray
 	url = git@github.com:christopherscott/iterm-dark-gray.git
+[submodule "flatland-freshcut"]
+	path = flatland-freshcut
+	url = git@github.com:christopherscott/flatland-freshcut.git
