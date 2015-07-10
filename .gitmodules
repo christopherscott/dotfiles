@@ -4,3 +4,6 @@
 [submodule "pure"]
 	path = pure
 	url = git@github.com:christopherscott/pure.git
+[submodule "iterm-dark-gray"]
+	path = iterm-dark-gray
+	url = git@github.com:christopherscott/iterm-dark-gray.git
