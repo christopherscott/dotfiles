@@ -15,7 +15,12 @@ plugins=(git brew web-search npm)
 ZSH_THEME="pure"
 PURE_PROMPT_SYMBOL=λ
 safe_source "$ZSH/oh-my-zsh.sh"
+
 setopt correct
+# execute history expansion, don't wait to verify command
+# allows intuitive use of `sudo !!` to execute last command
+# as root
+setopt NO_HIST_VERIFY
 
 # Aliases
 # -------------------------------------
