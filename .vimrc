@@ -1,9 +1,5 @@
 filetype off
 
-" Command-t for fuzzy file search
-let g:ctrlp_map = '<leader> '
-let g:ctrlp_cmd = 'CtrlP'
-
 " Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -11,9 +7,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'                " plugin manager
 Plugin 'tpope/vim-fugitive'               " git
 Plugin 'mileszs/ack.vim'                  " faster than grep
-Plugin 'kien/ctrlp.vim'                   " fuzzy, file searching
 Plugin 'terryma/vim-multiple-cursors'     " Sublime-like multiple cursors
-Plugin 'christoomey/vim-tmux-navigator'   " navigate vim/tmux splits
 
 " All of your Plugins must be added before the following line
 call vundle#end()
