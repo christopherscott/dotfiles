@@ -10,3 +10,5 @@
 	default = simple
 [diff]
   external = ~/bin/git-diff.sh
+[gitreview]
+	username = christopherscott
