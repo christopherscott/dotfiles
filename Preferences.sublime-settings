@@ -1,7 +1,10 @@
 {
+	"bold_folder_labels": true,
+	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Flatland FreshCut (SL).tmTheme",
 	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": true,
+	"word_wrap": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -15,14 +18,17 @@
 		"subpixel_antialias"
 	],
 	"font_size": 11,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 	],
+	"inverse_caret_state": false,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"tab_size": 2,
 	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_tab_stops": true
+	"use_tab_stops": true,
+	"wide_caret": false
 }
