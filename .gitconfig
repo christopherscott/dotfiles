@@ -12,3 +12,5 @@
   external = ~/bin/git-diff.sh
 [gitreview]
 	username = christopherscott
+  email = chernandez@underarmour.com
+
