@@ -23,7 +23,7 @@ setopt correct
 # as root
 setopt NO_HIST_VERIFY
 export EDITOR="vim"
-
+export JAVA_HOME="/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 # Aliases
 # -------------------------------------
@@ -40,6 +40,7 @@ safe_source "$DOTFILES/z/z.sh"
 # Local config
 # -------------------------------------
 divider
+safe_source "$HOME/.machine"
 safe_source "$HOME/.local"
 
 # Banner
