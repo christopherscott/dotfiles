@@ -1,5 +1,6 @@
 alias -g devel="~/Development"
 alias dev="devel"
+alias d="devel"
 alias s="subl ."
 alias zshrc="subl ~/.zshrc"
 alias l="ls -gh"
