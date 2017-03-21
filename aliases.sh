@@ -17,3 +17,6 @@ alias show="showFiles"
 alias hide="hideFiles"
 alias dc="docker-compose"
 alias dm="docker-machine"
+alias www="python -m SimpleHTTPServer"
+
+
