@@ -2,15 +2,25 @@
 	co = checkout
 	ci = commit
 	st = status -s
+	d = difftool
 	br
 [user]
 	name = Chris Hernandez
 	email = c.scott.hernandez@gmail.com
 [push]
 	default = simple
-[diff]
-  external = ~/bin/git-diff.sh
 [gitreview]
 	username = christopherscott
   email = chernandez@underarmour.com
 
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
+[merge]
+	tool = Kaleidoscope
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
